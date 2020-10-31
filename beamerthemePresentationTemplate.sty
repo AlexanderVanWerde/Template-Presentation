@@ -6,7 +6,6 @@
 \usepackage{amssymb}        % Mathematical symbols
 \usepackage{mathtools}      % Mathematical symbols
 \usepackage[absolute, overlay]{textpos} % Arbitrary placement
-\usepackage{hyperref}
 \usepackage{tikz-cd}
 \usepackage{subcaption}
 \setlength{\TPHorizModule}{\paperwidth} % Textpos units
@@ -21,10 +20,6 @@
   \raggedright
   \insertfootnotetext\par%
 }
-
-\usepackage{footnote}
-\BeforeBeginEnvironment{theorem}{\savenotes}
-\AfterEndEnvironment{theorem}{\spewnotes}
 
 \setlength{\parskip}{.6\baselineskip} 
 \addtobeamertemplate{footnote}{}{\vspace{1ex}}
